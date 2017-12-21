@@ -20,6 +20,7 @@
 
 bl_info = {
     "name": "Export: Statics Bridge",
+    "description": "Exports selected mesh to input.txt file for statics final project.",
     "author": "Peter Gutfeldt",
     "version": (1, 1, 4),
     "location": "File > Export > Statics Bridge Code (.txt)",
