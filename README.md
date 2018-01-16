@@ -3,7 +3,7 @@ StaticsBridge
 
 This is an addon created by Peter Gutfeldt to ease creation of more complex bridge designs for the ENGIN 2201, Engineering Statics final project at College of DuPage.
 
----
+
 
 ## Steps to use this addon
 
@@ -17,7 +17,7 @@ Under *User Preferances* window (<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd>
  3. **Exporting Bridge File**  
 When you are finished, export the code from *File* > *Export* > *Statics Bridge Code (.txt)* or under *Export Bridge Code* at the bottom of the right-hand settings panel.
 
----
+
 
 ## Making the Bridge
 
@@ -25,7 +25,7 @@ I recommend to start with a plane mesh and delete 3 of the vertices, then move t
 
 See below list of keyboard shortcuts on how to do this.  It is also advisable to stay in top (<kbd>numpad 7</kbd>) and orthographic (toggle with <kbd>numpad 5</kbd>) view mode.
 
----
+
     
 ## Keyboard Commands You Should Know:
 
@@ -47,7 +47,7 @@ See below list of keyboard shortcuts on how to do this.  It is also advisable to
         
  * <kbd>N</kbd> = toggle right hand settings panel (at the very top of this panel you can adjust the coordinates of the selected geometry, you should use this a lot; at the very bottom of the panel you can enter your name and click the button to export the final bridge code)
 
----
+
     
 # View Controls:
     
@@ -61,7 +61,7 @@ See below list of keyboard shortcuts on how to do this.  It is also advisable to
     
  * <kbd>Numpad .</kbd> (period) = center view on selected object/geometry
 
----
+
 
 # How To Constrain Nodes:
     
@@ -72,7 +72,7 @@ Z=1 - X ONLY constrained
 Z=2 - Y ONLY constrained  
 Z=3 - X AND Y constrained  
     
----
+
 
 # Debugging:
     
