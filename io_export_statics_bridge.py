@@ -20,7 +20,6 @@
 
 bl_info = {
     "name": "Export: Statics Bridge",
-    "description": "Exports selected mesh to input.txt file for statics final project.",
     "author": "Peter Gutfeldt",
     "version": (1, 1, 4),
     "location": "File > Export > Statics Bridge Code (.txt)",
@@ -147,10 +146,10 @@ class ExportAsBridge(bpy.types.Operator):
 
         return {'FINISHED'} # report success
 
-    @classmethod
-    def poll(cls, context): # enables/disables operator if mesh selected
-        obj = context.active_object
-        return (obj is not none and obj.type == 'MESH')
+##    @classmethod
+##    def poll(cls, context): # enables/disables operator if mesh selected
+##        obj = context.active_object
+##        return (obj is not none and obj.type == 'MESH')
 
         
 # = ===================== =
