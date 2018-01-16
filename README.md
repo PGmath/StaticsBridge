@@ -9,19 +9,19 @@ This is an addon created by Peter Gutfeldt to ease creation of more complex brid
 
    
  1. **Remove Units**  
-Go to 'Properties' window (right side) > 'Scene' tab > 'Units' rollout and set 'Length' to 'None'.  Make sure to do this BEFORE adding the mesh to model your bridge from or the scale will not be even with the grid lines.  THIS IS VERY IMPORTANT if you forget to do this the numbers in the final "input.txt" file will not match the dimensions you set.
+Go to *Properties* window (right side) > *Scene* tab > *Units* rollout and set *Length* to *None*.  Make sure to do this **before** adding the mesh to model your bridge from or the scale will not be even with the grid lines.  **THIS IS VERY IMPORTANT** if you forget to do this the numbers in the final "input.txt" file will not match the dimensions you set.
 
  2. **Install/Enable the Addon**  
-Under 'User Preferances' window (<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd>) > 'Add-ons' tab click 'Install Add-on from File...', select and install the 'io_export_statics_bridge.py' file, then click the checkbox next to it in the addons list.
+Under *User Preferances* window (<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd>) > *Add-ons* tab click *Install Add-on from File...*, select and install the `io_export_statics_bridge.py` file, then click the checkbox next to it in the addons list to enable it.
 
  3. **Exporting Bridge File**  
-When you are finished, export the code from 'File' > 'Export' > 'Statics Bridge Code (.txt)' or under 'Export Bridge Code' at the bottom of the right-hand settings panel.
+When you are finished, export the code from *File* > *Export* > *Statics Bridge Code (.txt)* or under *Export Bridge Code* at the bottom of the right-hand settings panel.
 
 ---
 
 ## Making the Bridge
 
-I recommend to start with a plane mesh and delete 3 of the vertices, then move the remaining one to the origin (0, 0, 0) and model off it.  You can also use the Add Single Vert option from the Add Mesh: Extra Objects addon (comes already installed, enable just like you enabled this one).
+I recommend to start with a plane mesh and delete 3 of the vertices, then move the remaining one to the origin (0, 0, 0) and model off it.  You can also use the *Add Single Vert* option from the *Add Mesh: Extra Objects* addon (comes already installed, enable just like you enabled this one).
 
 See below list of keyboard shortcuts on how to do this.  It is also advisable to stay in top (<kbd>numpad 7</kbd>) and orthographic (toggle with <kbd>numpad 5</kbd>) view mode.
 
@@ -32,7 +32,8 @@ See below list of keyboard shortcuts on how to do this.  It is also advisable to
 (Hint: you can open this file in a text editor view in Blender to easily reference it.)
     
  * right click = select <- IMPORTANT TO KNOW! (this can be changed in the user preferances if you want)
-    Shift+A = add object
+
+ * <kbd>Shift</kbd>+<kbd>A</kbd> = add object
     
  * <kbd>Tab</kbd> = toggle edit/object mode (you probably want to stay in edit mode since that's how you edit the mesh)
     
