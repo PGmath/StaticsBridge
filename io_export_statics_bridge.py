@@ -20,6 +20,8 @@
 
 bl_info = {
     "name": "Export: Statics Bridge",
+#   "description": "Exports 'input.txt' file for ENGIN 2201 (Statics) final bridge project simulator." 
+#   ^- this dict entry inexplicably and randomly causes the addon to not install, SO has failed me and I'm out of forums to ask why and computer screens to punch so away goes the addon description
     "author": "Peter Gutfeldt",
     "version": (1, 1, 4),
     "location": "File > Export > Statics Bridge Code (.txt)",
