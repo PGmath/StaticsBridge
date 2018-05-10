@@ -8,6 +8,8 @@ This is an addon created by Peter Gutfeldt to ease creation of more complex brid
 ## Steps to use this addon
 
    
+ 0. **Install Blender**  
+Go to [blender.org](https://www.blender.org/) and download and install Blender.
  1. **Remove Units**  
 Go to *Properties* window (right side) > *Scene* tab > *Units* rollout and set *Length* to *None*.  Make sure to do this **before** adding the mesh to model your bridge from or the scale will not be even with the grid lines.  **THIS IS VERY IMPORTANT** if you forget to do this the numbers in the final "input.txt" file will not match the dimensions you set.
 
